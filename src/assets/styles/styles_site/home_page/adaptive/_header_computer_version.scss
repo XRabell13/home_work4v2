@@ -1,0 +1,43 @@
+
+/*HEADER COMPUTER VERSION*/
+@media (min-width: 1040px) {
+    .menu__icon {
+        display: none;
+    }
+    .container__navigation{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .menu__nav {
+        @extend %class-gf-center; 
+
+        position: static;
+        width: auto;
+        padding: 7px 0;
+        background-color: transparent;
+    }
+    .navigation{
+        border-radius: 9999px;
+        background-color: $color-background_navigation;
+    }
+    .navigation__links {
+        max-height: 70px;
+        text-align: right;
+    }
+    .links__container {
+        display: inline-flex;
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .links__container:last-child{
+        padding-right: 7px;
+    }
+    .link-item{
+        padding: 0px;
+        color: $color-text_link-item;
+    }
+    .link-item_active{
+        color: $color_dark-gray;
+    }
+}
