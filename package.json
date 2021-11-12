@@ -1,0 +1,29 @@
+{
+  "name": "home_work4v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XRabell13/home_work4v2.git"
+  },
+  "author": "Tsiagunovich Tatsiana <XRabell13@rambler.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XRabell13/home_work4v2/issues"
+  },
+  "homepage": "https://github.com/XRabell13/home_work4v2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-image": "^6.2.1",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.42.1"
+  }
+}
