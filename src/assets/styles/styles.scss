@@ -1,0 +1,575 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #FBF7F3;
+}
+ul{
+    list-style: none;
+}
+/*HEADER MOBILE VERSION*/
+.header {
+    height: auto;
+    background-color: #FBF7F3;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+}
+
+.menu__logo {
+    height: 50px;
+    margin: 13px 0;
+}
+.menu__icon {
+    margin-top: 10px;
+    font-size: 2.4em;
+    color: #000;
+    line-height: 50px;
+}
+.menu__nav {
+    position: absolute;
+    width: 100%;
+    margin: 13px 0;
+    top:63px;
+    left:0;
+    z-index: 10;
+    background-color: #3D4852;
+}
+.navigation{
+    background-color: #ffffff;
+}
+.navigation__links {
+    max-height: 70px;
+    text-align: left;
+}
+.navigation__links {
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.links__container_active .link-item{
+    border-radius: 9999px;
+    color:#FBF7F3;
+    padding: 10px 25px;
+    background-color: #7140EB;
+}
+
+.links__container:last-child{
+    padding-right: 7px;
+}
+.link-item{
+    color: #8D867C;
+    font-size: 15px;
+    line-height: 19px;
+}
+.link-item_active{
+    color: #49464F;
+}
+.links__container {
+    padding: 0 15px;
+}
+.link-item {
+    display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+nav ul li a:hover, nav ul li a:focus {
+    color: #eb6f4a;
+}
+.navigation__links .links__container:last-child .link-item:hover {
+    background-color: #bd4aeb;
+}
+#checkbox {
+    display: none;
+}
+#checkbox:checked ~ .container__navigation .navigation__links {
+    max-height: 300px; /*Size of the mobile menu*/
+    padding: 15px 0;
+    transition: all 0.5s;
+}
+/*END HEADER MOBILE VERSION*/
+
+/*SUBSCRIBE SECTION*/
+
+.section__subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+    position: relative; 
+}
+.subscribe__background-image{
+   position:absolute;
+   width: 100%;
+   height: 100%;
+   top: 0px;
+   z-index: -100;
+}
+.subscribe__text-on-image {
+    text-align: center;  
+}
+.title-on-image{
+    font-size: 80px;
+    line-height: 112%;
+    letter-spacing: 2.7px;
+    color: #FBF7F3;
+}
+.text-on-image__big-text{
+    width: auto;
+    height: auto;
+    margin: 25px 27.60vw;
+}
+.big-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 115%;
+    color: #FBF7F3;
+}
+.subscribe__text-on-image .links__container_active .link-item:hover {
+    background-color: #bd4aeb;
+}
+/*END SUBSCRIBE SECTION*/
+
+/* MOVE WITH IMPACT SECTION */
+.section__move-with-impact
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+    width: 100vw;
+    height: 50vw;
+    position: relative;  
+   
+}
+.move-with-impact__text{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 6.84vw;
+    margin-top: 8.01vw;
+}
+.move-with-impact__background-image{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: -100;
+}
+.title-on-image-move{
+    font-size: 6.46vw;
+    line-height: 121%;
+    letter-spacing: 5.625px;
+    color: #FBF7F3;
+}
+.small-text{
+    font-size: 2.01vw;
+    line-height: 98%;
+    text-align: right;
+    color: #FBF7F3;
+}
+/* END MOVE WITH IMPACT SECTION */
+
+/* RIDE IT SECTION COMPUTER VERSION */
+
+.section__ride{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 8.67vw;
+}
+.text-description__title{
+    margin-bottom: 3.89vw;
+}
+
+.ride__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-description__description{
+    width: 34.67vw;
+}
+.ride-big-text{
+    font-size: 1.24vw;
+    line-height: 117%;
+    text-align: center;
+    color: #8172A2;
+}
+.image-bicycle{
+    width: 30.56vw;
+    margin-left: 56px;
+}
+.benefits__point{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 26px;
+}
+.item-point__picture-element{
+    width: 2.08vw;
+    margin-right: 15px;
+}
+.item-point__text{
+    font-size: 1.24vw;
+    line-height: 117%;
+    color: #8172A2;
+}
+.ride__container-benefits{
+    margin-left: 14px;;
+}
+.benefits__title{
+    margin-bottom: 25px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 120%;
+    color: #49464F;
+}
+
+.ride__title{
+    font-weight: normal;
+    font-size: 4.11vw;
+    line-height: 103%;
+    letter-spacing: 2.7px;
+    color: #49464F;
+}
+/* END RIDE IT SECTION COMPUTER VERSION */
+/* BEGIN BUILT TO MOVE */
+.section__built-to-move{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.built-to-move__title{
+    margin-bottom: 22px;
+    font-size: 4.11vw;
+    line-height: 98%;
+    text-align: center;
+    letter-spacing: 2.7px;
+    color: #49464F;
+}
+.image-bicycle-side{
+    width: 80vw;
+}
+/* END BUILT TO MOVE SECTION */
+
+/* BEGIN SECTION ON DRIVING ELEMENTS */
+.section__on-driving-elements{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 11.25vw;
+}
+.driving-elements__element{
+    margin: 5px 4.42vw;
+}
+.element-drive__title{
+    margin-bottom: 12px;
+}
+.drive-title{
+    font-size: 2.08vw;
+    line-height: 120%;
+    color: #2E2C34;
+}
+.element-drive__image{
+    width: 320px;
+    margin-bottom: 22px;
+}
+.element-drive__description{
+    width: 135px;
+    height: auto;
+}
+.element-description{
+    font-size: 1.39vw;
+    line-height: 117%;
+    text-align: left;
+    color: #49464F;
+}
+/*END SECTION ON DRIVING ELEMENTS*/
+/* DEGIN SECTION PICTURE */
+.section__picture{
+    width: 100vw;
+}
+.picture__img{
+    width: 100%;
+}
+/* END SECTION PICTURE */
+
+/*BEGIN SECTION STAY ON THE GO  */
+.section_stay-on-the-go{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width:100vw;
+    padding-left: 12.57vw;
+}
+.background-bicycle{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+.stay-on-the-go__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    margin-top: 13.61vw;
+    margin-bottom: 12.08vw;
+}
+.stay-on-the-go__title{
+    margin-bottom: 2.71vw;
+    font-size: 5.90vw;
+    line-height: 95%;
+    letter-spacing: 2.7px;
+    color: #49464F;
+}
+.stay-on-the-go__description{
+    width: 21.53vw;
+    font-size: 1.32vw;
+    line-height: 118%;
+    color: #8172A2;
+}
+.section__cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.card-item__img{
+    width: 20.56vw;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4.4vw;
+}
+.card-item__description{
+    width: 20.56vw;
+    margin: 5.35vw 0;
+    font-size: 1.60vw;
+    line-height: 117%;
+    color: #49464F;
+}
+/*END SECTION STAY ON THE GO */
+/*BEGIN FOOTER*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding-top: 175px;
+    padding-bottom: 132px;
+    padding-bottom: 165px;
+    background: #F7F0EA;
+}
+
+.footer__description {
+    max-width: 720px;
+}
+
+.footer__title {
+    margin-bottom: 34px;
+    font-size: 4.93vw;
+    line-height: 99%;
+    text-align: center;
+    letter-spacing: 2.7px;
+    color: #49464F;
+}
+
+.footer__subtitle {
+    margin: 0 110px;
+    font-size: 1.32vw;
+    line-height: 118%;
+    text-align: center;
+    color: #49464F;
+   
+}
+/*END FOOTER*/
+
+/* ADAPTIVE */
+/*HEADER COMPUTER VERSION*/
+@media (min-width: 1040px) {
+    .menu__icon {
+        display: none;
+    }
+    .container__navigation{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .menu__nav {
+        display: flex;
+        position: static;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 7px 0;
+        background-color: transparent;
+    }
+    .navigation{
+        border-radius: 9999px;
+        background-color: #ffffff;
+    }
+    .navigation__links {
+        max-height: 70px;
+        text-align: right;
+    }
+    .links__container {
+        display: inline-flex;
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .links__container:last-child{
+        padding-right: 7px;
+    }
+    .link-item{
+        padding: 0px;
+        color: #8D867C;
+    }
+    
+    .link-item_active{
+        color: #49464F;
+    }
+    
+    
+}
+@media (max-width: 800px) {
+    /* RIDE IT SECTION MOBILE VERSION */
+   .title-on-image{
+    font-size: 10.53vw;
+}
+    .text-on-image__big-text{
+      margin: 25px 10%;
+    }
+    .big-text{
+    font-size:2.4vw;
+    }
+    /* MOVE WITH IMPACT SECTION MOBILE VERSION */
+    .title-on-image-move{
+        font-size: 12.24vw;
+        line-height: 121%;
+        letter-spacing: 0.79vw;
+        color: #FBF7F3;
+    }
+    .small-text{
+        font-size: 2.83vw;
+        line-height: 98%;
+        text-align: right;
+        color: #FBF7F3;
+    }
+    /* RIDE IT SECTION MOBILE VERSION */
+    .ride__title{
+        font-size: 10.79vw;
+    }
+    .ride-big-text{
+        font-size: 2.83vw;
+    }
+    .item-point__text{
+        font-size: 2.83vw;
+    }
+    .benefits__title{
+        font-size: 2vw;
+    }
+    /* SECTION ON DRIVING ELEMENTS MOBILE VERSION */
+    .drive-title{
+        font-size: 3.49vw;
+    }
+    .element-description{
+        font-size: 2.13vw;
+    }
+    .drive-title{
+        font-size: 3.49vw;
+    }
+    .element-description{
+        font-size: 2.13vw;
+    }
+    .drive-title{
+        font-size: 7.06vw;
+    }
+    .element-description{
+        font-size: 2.63vw;
+    }
+    .drive-title{
+        font-size: 7.06vw;
+    }
+    .element-description{
+        font-size: 2.63vw;
+    }
+    .element-drive__image{
+        width: 220px;
+        margin-bottom: 22px;
+    }
+    .drive-title{
+        font-size: 3.75vw;
+    }
+    .element-description{
+        font-size: 2.50vw;
+    }
+    /*SECTION STAY ON THE GO MOBILE VERSION*/
+    .card-item__img{
+        width: 53.82vw;
+    }
+    .stay-on-the-go__description{
+        width: 53.82vw;
+        font-size: 2.64vw;
+    }
+    .card-item__description{
+        width: 53.82vw;
+        margin: 5.35vw 0;
+        font-size: 2.60vw;
+    }
+    .section__cards{
+        display: flex;
+        justify-content:  flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    } 
+    .footer__title{
+        font-size: 5.90vw;
+    }
+    .footer__subtitle{
+        font-size: 2.50vw;
+        margin-left: 25.88vw;
+        margin-right: 25.88vw;
+    }
+    }
+    /*FOOTER*/
+@media (max-width: 1240px){
+    .footer__bg {
+        display: none;
+    } 
+    .footer__description{
+        max-width: 100%;
+    }        
+
+}
