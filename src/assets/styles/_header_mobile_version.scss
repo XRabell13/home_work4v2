@@ -8,7 +8,6 @@
     justify-content: space-between;
     padding: 0 22px;
 }
-
 .menu__logo {
     height: 50px;
     margin: 13px 0;
@@ -16,7 +15,7 @@
 .menu__icon {
     margin-top: 10px;
     font-size: 2.4em;
-    color: #000;
+    color: $color_black;
     line-height: 50px;
 }
 .menu__nav {
@@ -26,38 +25,33 @@
     top:63px;
     left:0;
     z-index: 10;
-    background-color: #3D4852;
 }
 .navigation{
-    background-color: #ffffff;
+    background-color: $color-background_navigation;
 }
 .navigation__links {
-    max-height: 70px;
     text-align: left;
-}
-.navigation__links {
     list-style-type: none;
     max-height: 0px;
     overflow: hidden;
     transition: all 0.5s;
+    .links__container:last-child .link-item:hover {
+        background-color: $color-background_hover-button;
+    }
 }
-.links__container_active .link-item{
+.links__container_active{
+    .link-item{
     border-radius: 9999px;
     color:$color-text-on-image;
     padding: 10px 25px;
     background-color: $color-button-request;
+    }
 }
-
 .links__container:last-child{
     padding-right: 7px;
 }
-.link-item{
-    color: #8D867C;
-    font-size: 15px;
-    line-height: 19px;
-}
 .link-item_active{
-    color: #49464F;
+    color: $color_dark-gray;
 }
 .links__container {
     padding: 0 15px;
@@ -67,13 +61,14 @@
     padding: 12px;
     text-decoration: none;
     letter-spacing: 0.05em;
+    color: $color-text_link-item;
+    font-size: 15px;
+    line-height: 19px;
 }
 nav ul li a:hover, nav ul li a:focus {
-    color: #eb6f4a;
+    color: $color-text_link-hover;
 }
-.navigation__links .links__container:last-child .link-item:hover {
-    background-color: #bd4aeb;
-}
+
 #checkbox {
     display: none;
 }

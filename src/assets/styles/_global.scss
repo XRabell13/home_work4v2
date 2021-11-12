@@ -17,3 +17,15 @@ body{
 ul{
     list-style: none;
 }
+
+%class-df_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+%class-df_ai-start{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+

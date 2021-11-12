@@ -1,9 +1,8 @@
 /*SUBSCRIBE SECTION*/
 
 .section__subscribe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %class-df_center;
+
     width: 100vw;
     height: 85vh;
     position: relative; 
@@ -30,13 +29,12 @@
     margin: 25px 27.60vw;
 }
 .big-text{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
     line-height: 115%;
     color: $color-text-on-image;
 }
-.subscribe__text-on-image .links__container_active .link-item:hover {
-    background-color: #bd4aeb;
+.subscribe__text-on-image{
+    .links__container_active .link-item:hover{
+    background-color: $color-background_hover-button;
+    }
 }
 /*END SUBSCRIBE SECTION*/

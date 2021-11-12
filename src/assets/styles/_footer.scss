@@ -9,7 +9,7 @@
     padding-top: 175px;
     padding-bottom: 132px;
     padding-bottom: 165px;
-    background: #F7F0EA;
+    background:$color-footer;
 }
 
 .footer__description {
@@ -22,7 +22,7 @@
     line-height: 99%;
     text-align: center;
     letter-spacing: 2.7px;
-    color: #49464F;
+    color: $color_dark-gray;
 }
 
 .footer__subtitle {
@@ -30,7 +30,7 @@
     font-size: 1.32vw;
     line-height: 118%;
     text-align: center;
-    color: #49464F;
+    color: $color_dark-gray;
    
 }
 /*END FOOTER*/

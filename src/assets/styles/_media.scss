@@ -1,5 +1,6 @@
 
 /*ADAPTIVE*/
+
 /*HEADER COMPUTER VERSION*/
 @media (min-width: 1040px) {
     .menu__icon {
@@ -21,7 +22,7 @@
     }
     .navigation{
         border-radius: 9999px;
-        background-color: #ffffff;
+        background-color: $color-background_navigation;
     }
     .navigation__links {
         max-height: 70px;
@@ -37,11 +38,11 @@
     }
     .link-item{
         padding: 0px;
-        color: #8D867C;
+        color: $color-text_link-item;
     }
     
     .link-item_active{
-        color: #49464F;
+        color: $color_dark-gray;
     }
     
     
@@ -84,30 +85,6 @@
         font-size: 2vw;
     }
     /* SECTION ON DRIVING ELEMENTS MOBILE VERSION */
-    .drive-title{
-        font-size: 3.49vw;
-    }
-    .element-description{
-        font-size: 2.13vw;
-    }
-    .drive-title{
-        font-size: 3.49vw;
-    }
-    .element-description{
-        font-size: 2.13vw;
-    }
-    .drive-title{
-        font-size: 7.06vw;
-    }
-    .element-description{
-        font-size: 2.63vw;
-    }
-    .drive-title{
-        font-size: 7.06vw;
-    }
-    .element-description{
-        font-size: 2.63vw;
-    }
     .element-drive__image{
         width: 220px;
         margin-bottom: 22px;

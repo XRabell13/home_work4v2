@@ -1,10 +1,9 @@
 
 /* BEGIN BUILT TO MOVE */
 .section__built-to-move{
-    display: flex;
+    @extend %class-df_center;
+
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 10px;
 }
 .built-to-move__title{
@@ -13,7 +12,7 @@
     line-height: 98%;
     text-align: center;
     letter-spacing: 2.7px;
-    color: #49464F;
+    color: $color_dark-gray;
 }
 .image-bicycle-side{
     width: 80vw;
