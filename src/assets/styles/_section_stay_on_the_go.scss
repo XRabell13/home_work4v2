@@ -1,0 +1,62 @@
+/*BEGIN SECTION STAY ON THE GO  */
+.section_stay-on-the-go{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width:100vw;
+    padding-left: 12.57vw;
+}
+.background-bicycle{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+.stay-on-the-go__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    margin-top: 13.61vw;
+    margin-bottom: 12.08vw;
+}
+.stay-on-the-go__title{
+    margin-bottom: 2.71vw;
+    font-size: 5.90vw;
+    line-height: 95%;
+    letter-spacing: 2.7px;
+    color: #49464F;
+}
+.stay-on-the-go__description{
+    width: 21.53vw;
+    font-size: 1.32vw;
+    line-height: 118%;
+    color: $color-subtitle;
+}
+.section__cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.card-item__img{
+    width: 20.56vw;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4.4vw;
+}
+.card-item__description{
+    width: 20.56vw;
+    margin: 5.35vw 0;
+    font-size: 1.60vw;
+    line-height: 117%;
+    color: #49464F;
+}
+/*END SECTION STAY ON THE GO */

@@ -1,0 +1,36 @@
+
+/* BEGIN SECTION ON DRIVING ELEMENTS */
+.section__on-driving-elements{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 11.25vw;
+}
+.driving-elements__element{
+    margin: 5px 4.42vw;
+}
+.element-drive__title{
+    margin-bottom: 12px;
+}
+.drive-title{
+    font-size: 2.08vw;
+    line-height: 120%;
+    color: #2E2C34;
+}
+.element-drive__image{
+    width: 320px;
+    margin-bottom: 22px;
+}
+.element-drive__description{
+    width: 135px;
+    height: auto;
+}
+.element-description{
+    font-size: 1.39vw;
+    line-height: 117%;
+    text-align: left;
+    color: #49464F;
+}
+/*END SECTION ON DRIVING ELEMENTS*/

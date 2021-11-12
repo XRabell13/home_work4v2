@@ -1,0 +1,68 @@
+/* RIDE IT SECTION COMPUTER VERSION */
+
+.section__ride{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 8.67vw;
+}
+.text-description__title{
+    margin-bottom: 3.89vw;
+}
+
+.ride__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-description__description{
+    width: 34.67vw;
+}
+.ride-big-text{
+    font-size: 1.24vw;
+    line-height: 117%;
+    text-align: center;
+    color: $color-subtitle;
+}
+.image-bicycle{
+    width: 30.56vw;
+    margin-left: 56px;
+}
+.benefits__point{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 26px;
+}
+.item-point__picture-element{
+    width: 2.08vw;
+    margin-right: 15px;
+}
+.item-point__text{
+    font-size: 1.24vw;
+    line-height: 117%;
+    color: $color-subtitle;
+}
+.ride__container-benefits{
+    margin-left: 14px;;
+}
+.benefits__title{
+    margin-bottom: 25px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 120%;
+    color: #49464F;
+}
+
+.ride__title{
+    font-weight: normal;
+    font-size: 4.11vw;
+    line-height: 103%;
+    letter-spacing: 2.7px;
+    color: #49464F;
+}
+/* END RIDE IT SECTION COMPUTER VERSION */
