@@ -10,8 +10,9 @@
         width: 100%;
     }
     .menu__nav {
-        @extend %class-gf-center; 
-
+        display: flex;
+        align-items: center;
+        justify-content: center;; 
         position: static;
         width: auto;
         padding: 7px 0;

@@ -1,6 +1,6 @@
 /*BEGIN SECTION STAY ON THE GO  */
 .section_stay-on-the-go{
-    @extend %class-df-start;
+    @extend %class-df_ai-start;
 
     flex-direction: column;
     position: relative;
@@ -36,7 +36,7 @@
     color: $color-subtitle;
 }
 .section__cards{
-    @extend %class-df-start;
+    @extend %class-df_ai-start;
 
     flex-wrap: wrap;
 }
@@ -44,7 +44,7 @@
     width: 20.56vw;
 }
 .card-item{
-    @extend %class-df-center;
+    @extend %class-df_center;
 
     flex-direction: column;
     margin-right: 4.4vw;
